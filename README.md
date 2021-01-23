@@ -24,6 +24,7 @@ and so on. I hope you like this project, and if you're a recruiter reading this,
 [5] Technologies/Features Used:
 * Auth0 API (for authentication and authorization)
 * GitHub API (to get actual data of actual GitHub users)
+* FusionCharts API (to display beautiful charts)
 * ReactJS
 * React Context API
 * React Hooks
@@ -31,7 +32,6 @@ and so on. I hope you like this project, and if you're a recruiter reading this,
 * React Icons
 * React Styles Components
 * Axios (library to make HTTP requests)
-* FusionCharts API (to display beautiful charts)
 
 [6] How To Run The Project: 
 If you want to see live, deployed version, head over to this link: https://gitsearchbyishak.netlify.app/ 
