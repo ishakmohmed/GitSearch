@@ -30,7 +30,7 @@ and so on. I hope you like this project, and if you're a recruiter reading this,
 * React Hooks
 * React Router (allows us to build a single-page web application with navigation without the page refreshing as the user navigates)
 * React Icons
-* React Styles Components
+* React Styled Components
 * Axios (library to make HTTP requests)
 
 [6] How To Run The Project: 
