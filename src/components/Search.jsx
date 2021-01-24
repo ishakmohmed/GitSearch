@@ -39,8 +39,9 @@ const Search = () => {
             )}
           </div>
         </form>
-        <h3>Requests: {requests}</h3>
+<!--         <h3>Requests: {requests}/60</h3> -->
         {/* Note: GitHub only allows you to make 60 API calls per hour for each IP address, hence the above line is written to warn the users! */}
+        {/* Note: I commented out line 42 which tells the user the requests that they've made over 60 (limit per hour) because some of them who tested my site were confused about that feature because every search would take about 10 API calls if I'm not mistaken */}
       </Wrapper>
     </section>
   );
