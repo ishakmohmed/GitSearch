@@ -36,6 +36,6 @@ and so on. I hope you like this project, and if you're a recruiter reading this,
 [6] How To Run The Project: 
 If you want to see live, deployed version, head over to this link: https://gitsearchbyishak.netlify.app/ 
 If you want to see the source code for this web application, head over to this link: https://github.com/ishakmohmed/GitSearch ,
-and if you want to run this particular code, download the source code, install all the dependencies by typing "npm i"
-in the root of the folder (in terminal), and finally type "npm start" in root of the folder (in terminal) to start the web application
-on your localhost server.
+and if you want to run this particular code, download the source code. Make sure Node is installed globally on your machine,
+install all the dependencies by typing "npm i" in the root of the folder (in terminal), and finally type "npm start" in root of the folder (in terminal)
+to start the web application on your localhost server.
