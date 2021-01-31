@@ -1,6 +1,6 @@
 # GitSearch
 Search any GitHub user and see their data (such as stars per language, most forked repo, et cetera) presented to you with
-beautiful visuals thanks to GitHub and FusionCharts' API.
+beautiful visuals thanks to GitHub and FusionCharts' APIs.
 
 [1] Author:
 Mohmed Ishak
