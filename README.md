@@ -10,7 +10,7 @@ Mohmed Ishak
 [3] Name of Web Application:
 GitSearch
 
-[4] Fake Credentials (so you don't have to signup):
+[4] Demo Credentials (so you don't have to signup):
 username: masteruser@email.com 
 password: Masteruser975
 
