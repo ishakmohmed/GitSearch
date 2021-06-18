@@ -1,5 +1,3 @@
-// mockUsers for initial data >>>
-
 export default {
   login: "ishakmohmed",
   id: 52876913,

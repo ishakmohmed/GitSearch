@@ -8,7 +8,6 @@ const Repos = () => {
 
   const languages = repos.reduce((accumulator, item) => {
     const { language, stargazers_count } = item;
-    // note: stargazers_count is the property name for number of stars in repo in github's api!
 
     if (!language) return accumulator;
     if (!accumulator[language])
@@ -20,7 +19,7 @@ const Repos = () => {
     else
       accumulator[language] = {
         ...accumulator[language],
-        value: accumulator[language].value + 1, // override value, you'll have 2 values, but the latter one overrides the previous one!
+        value: accumulator[language].value + 1,
         stars: accumulator[language].stars + stargazers_count,
       };
 
@@ -33,17 +32,14 @@ const Repos = () => {
     })
     .slice(0, 5);
 
-  // most stars per language >
-  const mostPopular = Object.values(languages)
+    const mostPopular = Object.values(languages)
     .sort((a, b) => {
       return b.stars - a.stars;
     })
     .map((item) => {
-      return { ...item, value: item.stars }; // because my chart is looking for the "value" property!
+      return { ...item, value: item.stars }; 
     })
     .slice(0, 5);
-
-  // stars and forks
 
   let { stars, forks } = repos.reduce(
     (accumulator, item) => {

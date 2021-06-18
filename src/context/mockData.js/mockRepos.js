@@ -1,5 +1,3 @@
-// mockRepos for initial data >>>
-
 export default [
   {
     id: 239164394,

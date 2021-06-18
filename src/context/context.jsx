@@ -8,13 +8,10 @@ const rootUrl = "https://api.github.com";
 
 const GithubContext = React.createContext();
 
-// I'm not wrapping my application using GithubContext.Provider directly, because I want to set up more logic!
-
 const GithubProvider = ({ children }) => {
   const [githubUser, setGithubUser] = useState(mockUser);
   const [repos, setRepos] = useState(mockRepos);
   const [followers, setFollowers] = useState(mockFollowers);
-  // request loading >
   const [requests, setRequests] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState({ show: false, msg: "" });

@@ -10,7 +10,7 @@ const UserInfo = () => {
 
   const items = [
     {
-      id: 1, // cause when you map, each item need to have unique identifier!
+      id: 1,
       icon: <GoRepo className="icon" />,
       label: "repos",
       value: public_repos,

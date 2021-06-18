@@ -1,5 +1,3 @@
-// mockFollowers for initial data >>>
-
 export default [
   {
     login: "ThaELL1",
